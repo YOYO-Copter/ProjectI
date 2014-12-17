@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.project.ioiotimtopwm.MainActivity$PlaceholderFragment" >
+
+    <ToggleButton
+        android:id="@+id/toggleOnOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_V"
+        android:layout_marginTop="16dp"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/text_V"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toggleOnOff"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:text="- V"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="INPUT VOLTAGE(0-3.3V)" />
+
+    <TextView
+        android:id="@+id/text_St"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toggleOnOff"
+        android:layout_below="@+id/toggleOnOff"
+        android:layout_marginTop="17dp"
+        android:text="Status" />
+
+</RelativeLayout>
