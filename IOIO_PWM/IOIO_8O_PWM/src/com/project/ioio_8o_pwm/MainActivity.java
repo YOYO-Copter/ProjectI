@@ -125,9 +125,10 @@ public class MainActivity extends IOIOActivity{
 				}
 				for(int j = 0; j < 8; j++) {
 				//set pulse width in microseconds
-				PWM[j].setPulseWidth(pw[j]);	
-				}
+				PWM[j].setPulseWidth(pw[j]);
 				TimeUnit.MICROSECONDS.sleep(2000);
+				}
+				
 		      }
 
 //////////////////////////////////////////////////////////////////
