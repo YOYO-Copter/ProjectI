@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class MainActivity extends IOIOActivity{
 	////// Create object for widget //////
 	// Declare pulse width of PWM output instance is 2ms
-	long[] pw = {2000,2000,2000,2000,2000,2000,2000,2000};
+	int[] pw = {2000,2000,2000,2000,2000,2000,2000,2000};
 	// Assign PWM output with port on IOIO board (PWM pins in board is 34-40 and 45-48)
 	PwmOutput[] pwm = new PwmOutput[8];
 	int[] pin_pwm = {34,35,36,37,38,39,40,45};
